@@ -1,0 +1,19 @@
+1 : copy repo in locall system
+2 : use node version 21
+3 : command : npm install
+4 ; command : npm start // to run server
+
+
+
+// Working 
+
+=> Here i have done a school management system, so all the "EducationBoard" create by admin because some school have different name and short name.
+=> Here we will create a students which contain all the info about the students like subjects, special subjects, education board, student details.
+=> so first we have to create a education board by admin and then we will create a students.
+=> and also we have to selet subjects and special subjects by studnt.
+=> Subjects ref are stored in students subjects and specialSubjects ref are stored in students specialSubjects.
+
+=> This is a basic cruds objects which we will use in this project.
+
+=> postman Colecttions are also included in this project.
+=> URL : https://api.postman.com/collections/20366157-843c09ae-a4e3-42ad-be10-68eb50b4253b?access_key=PMAT-01JDJ2Q650460NFTANB27GK
