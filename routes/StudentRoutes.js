@@ -7,6 +7,7 @@ const {
   getStudents,
   createSubject,
   appendSubjectWithStudents,
+  getSubjects,
 } = require("../Controllers/studentController");
 
 Router.post("/add-student", createStudent);
@@ -16,5 +17,6 @@ Router.get("/get-student", getStudents);
 //create subjects
 Router.post("/add-subject", createSubject);
 Router.patch("/update-student-subject", appendSubjectWithStudents);
+Router.get("/get-subjects", getSubjects);
 
 module.exports = Router;

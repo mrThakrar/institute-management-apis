@@ -203,4 +203,24 @@ module.exports = {
       });
     }
   },
+  /**
+   * @description This function is used to get all subjects listing
+   */
+  getSubjects: async (req, res) => {
+    try {
+      const findAll = await Subjects.find({});
+
+      return res.status(200).json({
+        status: 200,
+        data: findAll,
+        message: "done",
+      });
+    } catch (error) {
+      return res.status(500).json({
+        status: 500,
+        data: {},
+        message: "Something wents wrong",
+      });
+    }
+  },
 };
